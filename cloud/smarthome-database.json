@@ -1,0 +1,32 @@
+{
+  "rooms" : {
+    "cocina" : {
+      "devices" : {
+        "lampara" : {
+          "pin" : "BCM26",
+          "status" : "off"
+        }
+      }
+    },
+    "habitación" : {
+      "devices" : {
+        "lampara" : {
+          "pin" : "BCM5",
+          "status" : "off"
+        },
+        "mesilla" : {
+          "pin" : "BCM12",
+          "status" : "off"
+        }
+      }
+    },
+    "salón" : {
+      "devices" : {
+        "lámpara" : {
+          "pin" : "BCM6",
+          "status" : "off"
+        }
+      }
+    }
+  }
+}

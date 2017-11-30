@@ -1,0 +1,254 @@
+{
+  "id": "32a72860-3e8a-4da9-91ce-336424a624a8",
+  "name": "Apaga la luz de la habitación",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "action.light.off",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "11b1049f-1d56-4e9b-9dfd-a851f09f44bf",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "house-location",
+          "value": "$house-location",
+          "prompts": [],
+          "isList": false
+        },
+        {
+          "id": "8627efe4-adcb-47a5-9239-f38b0c868894",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1511360247,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "d675a9b5-73eb-4d72-844f-b6b8ad7aa9ad",
+      "data": [
+        {
+          "text": "¿Puedes apagar "
+        },
+        {
+          "text": "las luces",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " del "
+        },
+        {
+          "text": "salón",
+          "alias": "house-location",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "532b28f1-5174-4b47-b5e0-a3a72263d772",
+      "data": [
+        {
+          "text": "Apagar "
+        },
+        {
+          "text": "la luz",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fcb7aa5a-5a16-4f96-874d-4e39c5513935",
+      "data": [
+        {
+          "text": "Apagar "
+        },
+        {
+          "text": "la luz",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " de la "
+        },
+        {
+          "text": "habitación",
+          "alias": "house-location",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c51cc25c-63df-4818-a75f-ad625c90970c",
+      "data": [
+        {
+          "text": "Apagar "
+        },
+        {
+          "text": "la luz",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " del "
+        },
+        {
+          "text": "salón",
+          "alias": "house-location",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f3038fd2-c146-4955-9c7e-b4b86243944e",
+      "data": [
+        {
+          "text": "Apaga "
+        },
+        {
+          "text": "la luz",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " del "
+        },
+        {
+          "text": "salón",
+          "alias": "house-location",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1511360247,
+      "isAuto": false
+    },
+    {
+      "id": "9ca52057-032e-4e87-951f-d3df7c2c83a9",
+      "data": [
+        {
+          "text": "¿Puedes apagar "
+        },
+        {
+          "text": "las luces",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " de la "
+        },
+        {
+          "text": "habitación",
+          "alias": "house-location",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": "?"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a6b0865c-f588-4977-8b7a-4b74afa3333a",
+      "data": [
+        {
+          "text": "Apaga "
+        },
+        {
+          "text": "la luz",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9c8c7c5f-3a17-413a-b46f-cf5d5f4b75c5",
+      "data": [
+        {
+          "text": "Apaga "
+        },
+        {
+          "text": "la luz",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " de la "
+        },
+        {
+          "text": "habitación",
+          "alias": "house-location",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1511360247,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

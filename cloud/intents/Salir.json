@@ -1,0 +1,93 @@
+{
+  "id": "4a7034f5-791f-42c5-aaba-40b16be34c10",
+  "name": "Salir",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "speech": "¡Hasta pronto!"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1511790439,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "a2b3a8e3-8f2e-42d9-b1b5-b2371ed82249",
+      "data": [
+        {
+          "text": "Adios cara cola"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "125b028d-5049-4b72-bd75-27124b2d2b27",
+      "data": [
+        {
+          "text": "Hasta luego"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "181eafeb-12d2-466b-9059-4bcfd72bf558",
+      "data": [
+        {
+          "text": "Hasta pronto"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "57fcea76-8fc3-4026-8862-bb1c864cbb2e",
+      "data": [
+        {
+          "text": "Adios"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "30db2953-0b7d-47f7-a8f7-d2155282545e",
+      "data": [
+        {
+          "text": "Salir"
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1511790439,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}

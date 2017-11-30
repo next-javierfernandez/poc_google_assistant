@@ -1,0 +1,189 @@
+{
+  "id": "1a2b2369-d130-4c02-8044-2a2169f627c5",
+  "name": "Encender las luces de la habitación",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "action.light.on",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "13cb4020-b451-4c4a-bdd1-d01a3c86e559",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "house-location",
+          "value": "$house-location",
+          "isList": false
+        },
+        {
+          "id": "2c65d8a1-faf5-4264-877c-55364a7300cd",
+          "required": false,
+          "dataType": "@sys.any",
+          "name": "name",
+          "value": "$name",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1511462277,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "442b4550-9a30-4208-8bda-11d81def9426",
+      "data": [
+        {
+          "text": "Enciende "
+        },
+        {
+          "text": "la luz",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " de la "
+        },
+        {
+          "text": "habitación",
+          "alias": "house-location",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1511462277,
+      "isAuto": false
+    },
+    {
+      "id": "055944f2-f70e-4922-a6a9-e1cab86f2a43",
+      "data": [
+        {
+          "text": "Enciende "
+        },
+        {
+          "text": "las luces",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " del "
+        },
+        {
+          "text": "salón",
+          "alias": "house-location",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 1511462277,
+      "isAuto": false
+    },
+    {
+      "id": "dde4cee1-4a8c-4957-93ff-c75efb9cf627",
+      "data": [
+        {
+          "text": "Enciende "
+        },
+        {
+          "text": "las luces",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " del "
+        },
+        {
+          "text": "cuarto",
+          "alias": "house-location",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1b61ddd2-28f8-4ea1-bacd-201206e0c25c",
+      "data": [
+        {
+          "text": "Encender "
+        },
+        {
+          "text": "las luces",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " del "
+        },
+        {
+          "text": "salón",
+          "alias": "house-location",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1511462277,
+      "isAuto": false
+    },
+    {
+      "id": "c046f436-7b0b-46e7-bcff-271257ddce7f",
+      "data": [
+        {
+          "text": "Encender "
+        },
+        {
+          "text": "las luces",
+          "alias": "name",
+          "meta": "@sys.any",
+          "userDefined": true
+        },
+        {
+          "text": " de la "
+        },
+        {
+          "text": "habitación",
+          "alias": "house-location",
+          "meta": "@sys.any",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1511462277,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
